@@ -1,0 +1,296 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Vinay Sharma}{}{ \urlstyle{same}\href{mailto:deedy@fb.com}{vinay0410sharma@gmail.com} | \href{tel: +91 9810340897}{+91 9810340897}\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{The LNM Institute of}
+\subsection{Information Technology}
+\descript{BTech in Computer Science}
+\small{July 2019, CGPA: 7.02 | Jaipur, India}
+
+\sectionsep
+
+\iffalse
+\subsection{Cornell University}
+\descript{BS in Computer Science}
+\location{May 2014 | Ithaca, NY}
+College of Engineering \\
+Magna Cum Laude\\
+\location{ Cum. GPA: 3.83 / 4.0 \\
+Major GPA: 3.9 / 4.0}
+\fi
+\sectionsep
+
+\subsection{Delhi Public School}
+\location{Indirapuram, Delhi NCR}
+Science | Percentage: 92.75
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \textbf{\href{https://github.com/vinay0410}{vinay0410}} \\
+LinkedIn://  \textbf{\href{https://www.linkedin.com/in/vinay0410}{vinay0410}} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iffalse
+\section{Coursework}
+\subsection{Graduate}
+Advanced Machine Learning \\
+Open Source Software Engineering \\
+Advanced Interactive Graphics \\
+Compilers + Practicum \\
+Cloud Computing \\
+Evolutionary Computation \\
+Defending Computer Networks \\
+Machine Learning \\
+\sectionsep
+
+\subsection{Undergraduate}
+Information Retrieval \\
+Operating Systems \\
+Artificial Intelligence + Practicum \\
+Functional Programming \\
+Computer Graphics + Practicum \\
+{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
+Unix Tools and Scripting \\
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     OPEN SOURCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Open Source}
+\textbf{Python (shared\_memory, tests) \\
+JdeRobot (GSoC) \\
+OpenCV (imgcodecs, tests)} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+% \subsection{Programming}
+\textbullet{} C \textbullet{} C++ \textbullet{} Python \textbullet{} OOP\\
+\textbullet{} Unit, Integration, Data Driven Testing \\
+\textbullet{} IPC using Shared Memory \\
+\textbullet{} Docker \\
+\sectionsep
+
+\location{\bf FRAMEWORKS/LIBRARIES:} 
+\textbullet{} aiohttp \textbullet{} asyncio \\
+\textbullet{} unittest \textbullet{} Pyramid (minor exp.) \\
+\sectionsep
+
+\location{\bf TOOLS:} 
+\textbullet{} Swagger \\
+\textbullet{} Postman for Integration Testing \\
+\textbullet{} ElasticSearch \textbullet{} PostgreSQL (minor exp.) \\
+\textbullet{} MongoDB \textbullet{} Nginx (minor exp.) \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Roles and Responsibilities
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Responsibilities}
+\textbullet{} \location{Co-ordinator, Robotics Club} 
+\textbullet{} \location{Event Head (Robotics LFR) at Plinth (Techno-Management Fest)} 
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     References
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{References}
+\location{\bf Dr. José María Cañas Plaza}
+Org Admin, JdeRobot \\
+Associate Professor, \\
+Universidad Rey Juan Carlos, Spain \\
+\textbf{\href{https://tinyurl.com/yamrpryr}{Letter Of Recommendation}}
+\sectionsep
+
+\location{\bf Mr. Sandeep Saini}
+Assistant Professor, LNMIIT \\
+Faculty Guide Phoenix ( Robotics ) Club \\
+\textbf{\href{https://drive.google.com/open?id=1RQK2qjnkbl-vRfC7SozZpAibk025AaEl}{Letter Of Recommendation}}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE/INTERNSHIPS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience / Internships}
+\runsubsection{Innovaccer}
+\descript{| Software Development Engineer }
+\location{July 2019 - Present | Noida, India}
+\sectionsep
+
+\runsubsection{Innovaccer}
+\descript{| Software Development Intern }
+\location{Jan 2019 – July 2019 | Noida, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Built a Query Engine using custom designed Domain Specific Language to provide an endpoint to build large scale data services.
+\item Built and deployed an end to end backend service from scratch using aiohttp and asyncio in Python.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Google Summer of Code 2019}
+\descript{| Mentor | JdeRobot }
+\location{May 2019 – Aug 2019}
+\begin{tightemize}
+\item Mentored in building a tool to label datasets using deep learning inferencers, which significantly helped the community to generate datasets faster.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Google Summer of Code 2018}
+\descript{| Student | JdeRobot }
+\location{May 2018 – Aug 2018}
+\begin{tightemize}
+\item Developed a Tool to View, Convert and Evaluate Datasets for a particular inferencer using a particular framework such as TensorFlow, Darknet and Keras. 
+\item This tool significantly helped the Deep Learning Community to evaluate and deploy networks as a ROS node.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{ACHIEVEMENTS}
+\begin{citemize}
+\item Received \focus{Innovaccer Champion of the Quarter award} for building \focus{Query Engine, Centralized Survey service} and integrating Swagger / Postman for Request Validation / Testing.
+\item \focus{Zonal level winner} and \focus{national level participant} among \focus{Top 30} teams at \focus{DRUSE conducted by DRDO} out of \focus{1100 teams} from \focus{786 colleges}.
+    \item \focus{Final stage participant} at the \focus{eYantra Robotics Competition 2016} conducted by IIT Bombay, among \focus{Top 37 teams} out of \focus{5,652}.
+\item Selected as a student at Interviewbit Academy, among \focus{Top 300} shortlisted from \focus{9000}.
+\end{citemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{JdeRobot's DetectionSuite}
+| \faGithub  \href{https://github.com/JdeRobot/DetectionSuite}{JdeRobot/DetectionSuite}
+\location{Mentor: \textbf{\href{https://gsyc.urjc.es/jmplaza/}{Dr.José María Cañas Plaza}} | \href{https://wiki.jderobot.org/Club-VinaySharma}{Project Report}}
+Improved DetectionSuite by adding parsing support(View, Evaluate, Convert) for widely recognized datasets such as COCO, Pascal VOC and Imagenet along with frameworks namely TensorFlow, Darknet and Keras, enabling users to deploy and evaulate a model on supported datasets using supported frameworks. Mentored in building a functionality to label data using deep learning.  
+\sectionsep
+
+\runsubsection{Pizza Delivery WebApp}
+| \faGithub  \href{https://github.com/vinay0410/Pizza}{vinay0410/Pizza} \\
+    \location{Mentor: \textbf{\href{https://universe.bits-pilani.ac.in/hyderabad/narasimhabolloju/Profile}{Dr. Narsi Bolloju}}}
+A system which handles multiple types of users such as Admin, Outlet Supervisor, Chef and Delivery Staff and co-ordinates between them, to result in  efficient and timely delivery. Users can get real time update their order, including live tracking of delivery on road.
+\sectionsep
+
+
+\iffalse
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2014	     & top 52/2500  & KPCB Engineering Fellow\\
+2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+2013	     & National  & Jump Trading Challenge Finalist\\
+2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+\end{tabular}
+\sectionsep
+\fi
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
