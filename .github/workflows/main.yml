@@ -5,8 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+    - uses: actions/checkout@v1
     - name: Hello world action step
-      id: hello
       uses: vinay0410/tectonic-action@master
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tex-path: 'resume/myResume.xtx'
