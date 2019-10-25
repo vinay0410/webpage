@@ -1,14 +1,14 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  latex-job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to Compile Latex file
     steps:
     - uses: actions/checkout@v1
-    - name: Hello world action step
+    - name: Compilation
       uses: vinay0410/tectonic-action@master
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tex-path: 'resume/myResume.xtx'
+        tex-path: 'resume/file.tex'
