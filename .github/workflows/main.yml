@@ -11,4 +11,4 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tex-path: 'resume/file.tex'
+        tex_path: 'resume/myResume.xtx'
