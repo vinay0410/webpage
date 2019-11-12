@@ -47,12 +47,11 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
- 
+
 \pagestyle{fancy}
 \fancyhf{}
  
 \begin{document}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     LAST UPDATED DATE
@@ -65,7 +64,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Vinay Sharma}{}{ \urlstyle{same}\href{mailto:deedy@fb.com}{vinay0410sharma@gmail.com} | \href{tel: +91 9810340897}{+91 9810340897}\\
+\namesection{Vinay Sharma}{}{ \urlstyle{same}\href{mailto:vinay0410sharma@gmail.com}{vinay0410sharma@gmail.com} | \href{tel: +91 9810340897}{+91 9810340897}\\
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -167,8 +166,9 @@ OpenCV (imgcodecs, tests)} \\
 \location{\bf TOOLS:} 
 \textbullet{} Swagger \\
 \textbullet{} Postman for Integration Testing \\
-\textbullet{} ElasticSearch \textbullet{} PostgreSQL (minor exp.) \\
-\textbullet{} MongoDB \textbullet{} Nginx (minor exp.) \\
+\textbullet{} ElasticSearch \textbullet{} MongoDB \textbullet{} Redis  \\
+\textbullet{} PostgreSQL (minor exp.) \\
+\textbullet{} Nginx (minor exp.)
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -183,7 +183,7 @@ OpenCV (imgcodecs, tests)} \\
 %     References
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{References}
-\location{\bf Dr. José María Cañas Plaza}
+\location{\bf Dr. José María Cañas Plaza}
 Org Admin, JdeRobot \\
 Associate Professor, \\
 Universidad Rey Juan Carlos, Spain \\
@@ -215,15 +215,19 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 \runsubsection{Innovaccer}
 \descript{| Software Development Engineer }
 \location{July 2019 - Present | Noida, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Designed and implemented custom full text search using ElasticSearch on millions of documents.
+\item Improved speed of time critical APIs by caching using Redis, and configured eviction policies.
+\end{tightemize}
 \sectionsep
 
 \runsubsection{Innovaccer}
 \descript{| Software Development Intern }
 \location{Jan 2019 – July 2019 | Noida, India}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Built a Query Engine using custom designed Domain Specific Language to provide an endpoint to build large scale data services.
-\item Built and deployed an end to end backend service from scratch using aiohttp and asyncio in Python.
+\item Built and deployed an end to end backend service from scratch using \focus{aiohttp} and \focus{asyncio} in \focus{Python}, \focus{MongoDB}, \focus{shared memory} for IPC, \focus{OpenAPI} for Request Validation, \focus{Postman} for Integration Testing and \focus{mypy} for type checking.
+\item Designed a GraphQL like JSON spec for querying PostgreSQL, supporting  joins, filters and aggregations. Wrote a Query builder and an anaylzer to get frequency of joins, filters and aggregations on columns.
 \end{tightemize}
 \sectionsep
 
@@ -263,17 +267,15 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 
 \section{Projects}
 \runsubsection{JdeRobot's DetectionSuite}
-| \faGithub  \href{https://github.com/JdeRobot/DetectionSuite}{JdeRobot/DetectionSuite}
+| \faGithub  \href{https://github.com/JdeRobot/DetectionSuite}{JdeRobot/DetectionSuite} \\
 \location{Mentor: \textbf{\href{https://gsyc.urjc.es/jmplaza/}{Dr.José María Cañas Plaza}} | \href{https://wiki.jderobot.org/Club-VinaySharma}{Project Report}}
-Improved DetectionSuite by adding parsing support(View, Evaluate, Convert) for widely recognized datasets such as COCO, Pascal VOC and Imagenet along with frameworks namely TensorFlow, Darknet and Keras, enabling users to deploy and evaulate a model on supported datasets using supported frameworks. Mentored in building a functionality to label data using deep learning.  
+Improved DetectionSuite by adding parsing support for widely recognized datasets such as COCO, Pascal VOC and Imagenet along with frameworks namely TensorFlow, Darknet and Keras, enabling users to deploy and evaulate a model on supported datasets using supported frameworks.
 \sectionsep
 
 \runsubsection{Pizza Delivery WebApp}
 | \faGithub  \href{https://github.com/vinay0410/Pizza}{vinay0410/Pizza} \\
     \location{Mentor: \textbf{\href{https://universe.bits-pilani.ac.in/hyderabad/narasimhabolloju/Profile}{Dr. Narsi Bolloju}}}
-A system which handles multiple types of users such as Admin, Outlet Supervisor, Chef and Delivery Staff and co-ordinates between them, to result in  efficient and timely delivery. Users can get real time update their order, including live tracking of delivery on road.
-\sectionsep
-
+A webapp which handles multiple types of users namely Admin, Supervisor, Chef and Delivery Staff and co-ordinates between them, to result in efficient delivery. Users can get real time updates of their order, including live tracking of delivery on road.
 
 \iffalse
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
