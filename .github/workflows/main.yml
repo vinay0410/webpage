@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Compilation
-      uses: vinay0410/tectonic-action@master
+      uses: vinay0410/tectonic-action@test/big-files
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
