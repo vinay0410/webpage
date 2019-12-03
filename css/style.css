@@ -9,7 +9,7 @@ mark{background-color:#ff9;color:#fff;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
 abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:0.1em 0;padding:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #fff;margin:0em 0;padding:0}
 input,select{vertical-align:middle}
 li{list-style:none}
 
@@ -33,17 +33,32 @@ canvas{
   vertical-align:bottom;
 }
 
+.text, .text a {
+  font-size: 0.557em;
+  color: #f7cdcd;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.text a svg, .text span {
+  margin-bottom: -6px;
+}
+
+.text span {
+  font-size: 1.2em;
+}
+
 .mid {
   font-family: 'Raleway', sans-serif;
   font-size: 4.3em;
   position: absolute;
   z-index: 10;
-  width: 350px;
-  height: 30px;
-  top: 50%;
-  left: 50%;
+  width: 40%;
+  height: 30%;
+  top: 30%;
+  left: 30%;
   color: #fff;
-  margin: -110px 0 0 -150px;
+  margin: auto auto;
   border-radius: 4px;
   box-sizing: border-box;
   z-index: 100;
