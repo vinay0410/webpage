@@ -171,16 +171,14 @@ Unix Tools and Scripting \\
 
 \location{\bf FRAMEWORKS / TOOLS:}
 \textbullet{} \skillfont{mypy} \textbullet{} \skillfont{aiohttp} \textbullet{} \skillfont{asyncio} \\
-\textbullet{} \skillfont{unittest} \textbullet{} \skillfont{Pyramid} \\
-\textbullet{} \skillfont{Docker} \textbullet{} \skillfont{Swagger} \\
-\textbullet{} \skillfont{Postman} \textbullet{} \skillfont{New Relic} \\
-\textbullet{} \skillfont{Nginx (basic)}
+\textbullet{} \skillfont{unittest} \textbullet{} \skillfont{Docker} \\
+\textbullet{} \skillfont{OpenAPI} \textbullet{} \skillfont{Postman} \\
+\textbullet{} \skillfont{New Relic} \textbullet{} \skillfont{Nginx (basic)}
 \sectionsep
 
 \location{\bf OTHERS:}
 \textbullet{} \skillfont{GitHub} \textbullet{} \skillfont{GitLab} \\
 \textbullet{} \skillfont{SonarQube} \textbullet{} \skillfont{Jenkins} \textbullet{} \skillfont{Jira} \\
-\textbullet{} \skillfont{Sentry}
 \sectionsep
 
 \iffalse
