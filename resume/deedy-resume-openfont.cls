@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=0.9cm, vmargin=0.5cm]{geometry}
+\usepackage[lmargin=0.7cm, rmargin=0.5cm, vmargin=0.2cm]{geometry}
 \usepackage{fontawesome5}
 
 % \urlstyle{same}
@@ -45,7 +45,7 @@ Last Updated on \today
 % Name command
 \newcommand{\namesection}[3]{
 \centering{
-\fontsize{40pt}{60pt}
+\fontsize{35pt}{50pt}
 \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 
 \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
 } \\[2pt]
@@ -68,7 +68,7 @@ Last Updated on \today
 
 % Subeadings command
 \titleformat{\subsection}{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{11pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
@@ -83,6 +83,12 @@ Last Updated on \today
 
 \newcommand{\focus}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
+
+\newcommand{\skillfont}[1]{
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{10.3pt}{12pt}\selectfont {#1} \normalfont}
+
+\newcommand{\linkfont}[1]{
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{11pt}{12pt}\selectfont {#1} \normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{

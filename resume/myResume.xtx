@@ -73,7 +73,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.27\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -84,7 +84,7 @@
 \subsection{The LNM Institute of}
 \subsection{Information Technology}
 \descript{BTech in Computer Science}
-\small{July 2019, CGPA: 7.02 | Jaipur, India}
+\small{July 2019 | Jaipur, India}
 
 \sectionsep
 
@@ -98,20 +98,24 @@ Magna Cum Laude\\
 Major GPA: 3.9 / 4.0}
 \fi
 
+\iffalse
 \subsection{Delhi Public School}
 \location{Indirapuram, Delhi NCR}
 Science | Percentage: 92.75
 \sectionsep
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Github:// \textbf{\href{https://github.com/vinay0410}{vinay0410}} \\
-Codeforces:// \textbf{\href{https://codeforces.com/profile/atom0410}{atom0410}} \\
-Codechef:// \textbf{\href{https://www.codechef.com/users/vincode}{vincode}} \\
-LinkedIn://  \textbf{\href{https://www.linkedin.com/in/vinay0410}{vinay0410}} \\
+\linkfont{Github://}\textbf{\href{https://github.com/vinay0410}{vinay0410}} \\
+\linkfont{Codeforces://}\textbf{\href{https://codeforces.com/profile/atom0410}{atom0410}} \\
+\linkfont{Codechef://}\textbf{\href{https://www.codechef.com/users/vincode}{vincode}} \\
+\linkfont{LinkedIn://}\textbf{\href{https://www.linkedin.com/in/vinay0410}{vinay0410}} \\
+
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -142,9 +146,9 @@ Unix Tools and Scripting \\
 %     OPEN SOURCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Open Source}
-\textbf{Python (shared\_memory, tests) \\
-JdeRobot (GSoC) \\
-OpenCV (imgcodecs, tests)} \\
+\textbf{\href{https://github.com/python/cpython/commits?author=vinay0410}{Python (shared\_memory, tests)} \\
+\href{https://github.com/JdeRobot/DetectionStudio/commits?author=vinay0410}{JdeRobot (GSoC)} \\
+\href{https://github.com/opencv/opencv/pull/10352/files}{OpenCV (imgcodecs, tests)}} \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -152,26 +156,34 @@ OpenCV (imgcodecs, tests)} \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-% \subsection{Programming}
-\textbullet{} C \textbullet{} C++ \textbullet{} Python \textbullet{} OOP\\
-\textbullet{} Unit, Integration, Data Driven Testing \\
-\textbullet{} IPC using Shared Memory \\
-\textbullet{} Docker \\
+\location{\bf LANGUAGES}
+\textbullet{} \skillfont{C} \textbullet{} \skillfont{C++} \textbullet{} \skillfont{Python} \\
 \sectionsep
 
-\location{\bf FRAMEWORKS/LIBRARIES:} 
-\textbullet{} aiohttp \textbullet{} asyncio \\
-\textbullet{} unittest \textbullet{} Pyramid (minor exp.) \\
+\location{\bf OPERATING SYSTEMS}
+\textbullet{} \skillfont{Ubuntu} \textbullet{} \skillfont{MacOS}
 \sectionsep
 
-\location{\bf TOOLS:} 
-\textbullet{} Swagger \\
-\textbullet{} Postman for Integration Testing \\
-\textbullet{} ElasticSearch \textbullet{} MongoDB \textbullet{} Redis  \\
-\textbullet{} PostgreSQL (minor exp.) \\
-\textbullet{} Nginx (minor exp.)
+\location{\bf DATABASES / SEARCH INDEXES:} 
+\textbullet{} \skillfont{Elasticsearch} \textbullet{} \skillfont{PostgreSQL} \\
+\textbullet{} \skillfont{Redis} \textbullet{} \skillfont{MongoDB (basic)} \\
 \sectionsep
 
+\location{\bf FRAMEWORKS / TOOLS:}
+\textbullet{} \skillfont{mypy} \textbullet{} \skillfont{aiohttp} \textbullet{} \skillfont{asyncio} \\
+\textbullet{} \skillfont{unittest} \textbullet{} \skillfont{Pyramid} \\
+\textbullet{} \skillfont{Docker} \textbullet{} \skillfont{Swagger} \\
+\textbullet{} \skillfont{Postman} \textbullet{} \skillfont{New Relic} \\
+\textbullet{} \skillfont{Nginx (basic)}
+\sectionsep
+
+\location{\bf OTHERS:}
+\textbullet{} \skillfont{GitHub} \textbullet{} \skillfont{GitLab} \\
+\textbullet{} \skillfont{SonarQube} \textbullet{} \skillfont{Jenkins} \textbullet{} \skillfont{Jira} \\
+\textbullet{} \skillfont{Sentry}
+\sectionsep
+
+\iffalse
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Roles and Responsibilities
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -179,6 +191,7 @@ OpenCV (imgcodecs, tests)} \\
 \textbullet{} \location{Co-ordinator, Robotics Club} 
 \textbullet{} \location{Event Head (Robotics LFR) at Plinth (Techno-Management Fest)} 
 \sectionsep
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     References
@@ -193,10 +206,8 @@ Universidad Rey Juan Carlos, Spain \\
 
 \location{\bf Mr. Sandeep Saini}
 Assistant Professor, LNMIIT \\
-Faculty Guide Phoenix ( Robotics ) Club \\
 \textbf{\href{https://drive.google.com/open?id=1RQK2qjnkbl-vRfC7SozZpAibk025AaEl}{Letter Of Recommendation}}
 \sectionsep
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -206,7 +217,7 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.69\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE/INTERNSHIPS
@@ -218,8 +229,10 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 \location{July 2019 - Present | Noida, India}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Designed and implemented custom full text search using ElasticSearch on millions of documents.
-\item Improved speed of time critical APIs by caching using Redis, and configured eviction policies.
+\item Migrated custom full text search API with custom filtering from \focus{ElasticSearch} to \focus{PostgreSQL} and increased performance of the same by \focus{50\%}, using BTrees and functional indexes.
+\item Improved speed of time critical APIs by caching using \focus{Redis}, which improved average response time by \focus{40x} as measured by New Relic.
+\item Built custom full text search using \focus{ElasticSearch} on millions of documents, with a custom scoring algorithm which increased relevance as measured by Mix Panel.
+\item Became \focus{point of contact} of a service collecting feedback centrally from all tenants.
 \end{tightemize}
 \sectionsep
 
@@ -233,7 +246,7 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 \sectionsep
 
 \runsubsection{Google Summer of Code 2019}
-\descript{| Mentor | JdeRobot }
+\descript{| Mentor | JdeRobot \href{https://drive.google.com/file/d/1GDtdkLkxMotR2KuLPFhgPOOyy0yLFFj9/view?usp=sharing}{\faIcon{external-link-alt}}}
 \location{May 2019 – Aug 2019}
 \begin{tightemize}
 \item Mentored in building a tool to label datasets using deep learning inferencers, which significantly helped the community to generate datasets faster.
@@ -241,7 +254,7 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 \sectionsep
 
 \runsubsection{Google Summer of Code 2018}
-\descript{| Student | JdeRobot }
+\descript{| Student | JdeRobot \href{https://drive.google.com/file/d/0B1bReMNL_q-eVFJSU01kWDNxY0pEaEtabUNCbTVQNTkyNjdj/view?usp=sharing}{\faIcon{external-link-alt}}}
 \location{May 2018 – Aug 2018}
 \begin{tightemize}
 \item Developed a Tool to View, Convert and Evaluate Datasets for a particular inferencer using a particular framework such as TensorFlow, Darknet and Keras. 
@@ -255,10 +268,10 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 
 \section{ACHIEVEMENTS}
 \begin{citemize}
-\item Received \focus{Innovaccer Champion of the Quarter award} for building \focus{Query Engine, Centralized Survey service} and integrating Swagger / Postman for Request Validation / Testing.
+\item Received \focus{Innovaccer Champion of the Quarter award} for building \focus{Query Engine, Centralized Survey service}.
 \item \focus{Zonal level winner} and \focus{national level participant} among \focus{Top 30} teams at \focus{DRUSE conducted by DRDO} out of \focus{1100 teams} from \focus{786 colleges}.
-    \item \focus{Final stage participant} at the \focus{eYantra Robotics Competition 2016} conducted by IIT Bombay, among \focus{Top 37 teams} out of \focus{5,652}.
-\item Selected as a student at Interviewbit Academy, among \focus{Top 300} shortlisted from \focus{9000}.
+\item \focus{Final stage participant} at the \focus{eYantra Robotics Competition 2016} conducted by IIT Bombay, among \focus{Top 37 teams} out of \focus{5,652}.
+\item Selected as a student at Interviewbit (Scaler) Academy, among \focus{Top 300} shortlisted from \focus{9000}. 
 \end{citemize}
 
 
@@ -270,7 +283,7 @@ Faculty Guide Phoenix ( Robotics ) Club \\
 \runsubsection{JdeRobot's DetectionSuite}
 | \faGithub  \href{https://github.com/JdeRobot/DetectionSuite}{JdeRobot/DetectionSuite} \\
 \location{Mentor: \textbf{\href{https://gsyc.urjc.es/jmplaza/}{Dr.José María Cañas Plaza}} | \href{https://wiki.jderobot.org/Club-VinaySharma}{Project Report}}
-Improved DetectionSuite by adding parsing support for widely recognized datasets such as COCO, Pascal VOC and Imagenet along with frameworks namely TensorFlow, Darknet and Keras, enabling users to deploy and evaulate a model on supported datasets using supported frameworks.
+Improved DetectionSuite by adding parsing support for widely recognized datasets such as COCO, Pascal VOC and Imagenet along with frameworks namely TensorFlow, Darknet and Keras, enabling users to deploy and evaluate a model on supported datasets using supported frameworks.
 \sectionsep
 
 \runsubsection{Pizza Delivery WebApp}
