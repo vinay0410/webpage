@@ -13,3 +13,15 @@ jobs:
       with:
         tex_path: 'resume/myResume.xtx'
         push: 'yes'
+  latex-job2:
+      runs-on: ubuntu-latest
+      name: A job to Compile Latex file 2
+      steps:
+      - uses: actions/checkout@v1
+      - name: Compilation
+        uses: vinay0410/tectonic-action@master
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tex_path: 'resume2/myResume.xtx'
+          push: 'yes'
