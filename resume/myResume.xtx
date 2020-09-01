@@ -160,7 +160,7 @@ Unix Tools and Scripting \\
 \textbullet{} \skillfont{C} \textbullet{} \skillfont{C++} \textbullet{} \skillfont{Python} \\
 \sectionsep
 
-\location{\bf OPERATING SYSTEMS}
+\location{\bf OS}
 \textbullet{} \skillfont{Ubuntu} \textbullet{} \skillfont{MacOS}
 \sectionsep
 
@@ -173,7 +173,7 @@ Unix Tools and Scripting \\
 \textbullet{} \skillfont{mypy} \textbullet{} \skillfont{aiohttp} \textbullet{} \skillfont{asyncio} \\
 \textbullet{} \skillfont{unittest} \textbullet{} \skillfont{Docker} \\
 \textbullet{} \skillfont{OpenAPI} \textbullet{} \skillfont{Postman} \\
-\textbullet{} \skillfont{New Relic} \textbullet{} \skillfont{Nginx (basic)}
+\textbullet{} \skillfont{New Relic} \textbullet{} \skillfont{nginx (basic)}
 \sectionsep
 
 \location{\bf OTHERS:}
@@ -218,10 +218,10 @@ Assistant Professor, LNMIIT \\
 \begin{minipage}[t]{0.69\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE/INTERNSHIPS
+%     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience / Internships}
+\section{Experience}
 \runsubsection{Innovaccer}
 \descript{| Software Development Engineer }
 \location{July 2019 - Present | Noida, India}
@@ -239,7 +239,7 @@ Assistant Professor, LNMIIT \\
 \location{Jan 2019 – July 2019 | Noida, India}
 \begin{tightemize}
 \item Built and deployed an end to end backend service from scratch using \focus{aiohttp} and \focus{asyncio} in \focus{Python}, \focus{MongoDB}, \focus{shared memory} for IPC, \focus{OpenAPI} for Request Validation, \focus{Postman} for Integration Testing and \focus{mypy} for type checking.
-\item Designed a GraphQL like JSON spec for querying PostgreSQL, supporting  joins, filters and aggregations. Wrote a Query builder and an anaylzer to get frequency of joins, filters and aggregations on columns.
+\item Designed a GraphQL like JSON spec for querying PostgreSQL, supporting  joins, filters and aggregations. Wrote a Query builder and an analyzer to get frequency of joins, filters and aggregations on columns.
 \end{tightemize}
 \sectionsep
 

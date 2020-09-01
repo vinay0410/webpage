@@ -82,7 +82,7 @@ Last Updated on \today
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 \newcommand{\focus}[1]{
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{10pt}{12pt}\selectfont {#1}\normalfont}
 
 \newcommand{\skillfont}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{10.3pt}{12pt}\selectfont {#1} \normalfont}
