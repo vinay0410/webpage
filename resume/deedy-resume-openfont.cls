@@ -25,6 +25,8 @@
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
 \definecolor{mylinkcolor}{RGB}{3, 107, 252.}
+\definecolor{codeforces-purple}{HTML}{cc70cc}
+\definecolor{codechef-yellow}{HTML}{ff874e}
 
 % Set main fonts
 \usepackage{fontspec}
@@ -83,6 +85,12 @@ Last Updated on \today
 
 \newcommand{\focus}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{10pt}{12pt}\selectfont {#1}\normalfont}
+
+\newcommand{\codeforces}[1]{
+\color{codeforces-purple}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{10pt}{12pt}\selectfont {#1}\normalfont}
+
+\newcommand{\codechef}[1]{
+\color{codechef-yellow}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{10pt}{12pt}\selectfont {#1}\normalfont}
 
 \newcommand{\skillfont}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{10.3pt}{12pt}\selectfont {#1} \normalfont}

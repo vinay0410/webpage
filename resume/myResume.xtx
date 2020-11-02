@@ -57,7 +57,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \lastupdated
+\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -110,9 +110,9 @@ Science | Percentage: 92.75
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-\linkfont{Github://}\textbf{\href{https://github.com/vinay0410}{vinay0410}} \\
-\linkfont{Codeforces://}\textbf{\href{https://codeforces.com/profile/atom0410}{atom0410}} \\
-\linkfont{Codechef://}\textbf{\href{https://www.codechef.com/users/vincode}{vincode}} \\
+\linkfont{Github://}\textbf{\href{https://github.com/vinay0410}{vinay0410}} \\ \vspace{2mm}
+\linkfont{Codeforces://}\textbf{\href{https://codeforces.com/profile/atom0410}{atom0410}} \\ \codeforces{Candidate Master} (Top 1.5\% in India) \vspace{2mm} \\
+\linkfont{Codechef://}\textbf{\href{https://www.codechef.com/users/vincode}{vincode}} \\ \codechef{5 star} (Top 0.3\% in India)  \vspace{2mm} \\
 \linkfont{LinkedIn://}\textbf{\href{https://www.linkedin.com/in/vinay0410}{vinay0410}} \\
 
 \sectionsep
@@ -266,7 +266,7 @@ Assistant Professor, LNMIIT \\
 
 \section{ACHIEVEMENTS}
 \begin{citemize}
-\item Received \focus{Innovaccer Champion of the Quarter award} for building \focus{Query Engine, Centralized Survey service}.
+\item Received \focus{Innovaccer Champion of the Quarter award} twice.
 \item \focus{Zonal level winner} and \focus{national level participant} among \focus{Top 30} teams at \focus{DRUSE conducted by DRDO} out of \focus{1100 teams} from \focus{786 colleges}.
 \item \focus{Final stage participant} at the \focus{eYantra Robotics Competition 2016} conducted by IIT Bombay, among \focus{Top 37 teams} out of \focus{5,652}.
 \item Selected as a student at Interviewbit (Scaler) Academy, among \focus{Top 300} shortlisted from \focus{9000}. 
