@@ -222,9 +222,18 @@ Assistant Professor, LNMIIT \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Amazon}
+\descript{| Software Development Engineer }
+\location{Nov 2020 - Present | Banglore, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Part of Advertising team working on Sponsored Products for Amazon India marketplace.
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Innovaccer}
 \descript{| Software Development Engineer }
-\location{July 2019 - Present | Noida, India}
+\location{July 2019 - Nov 2020 | Noida, India}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Migrated custom full text search API with custom filtering from \focus{ElasticSearch} to \focus{PostgreSQL} and increased performance of the same by \focus{50\%}, using BTrees and functional indexes.
@@ -252,7 +261,7 @@ Assistant Professor, LNMIIT \\
 \sectionsep
 
 \runsubsection{Google Summer of Code 2018}
-\descript{| Student | JdeRobot \href{https://drive.google.com/file/d/0B1bReMNL_q-eVFJSU01kWDNxY0pEaEtabUNCbTVQNTkyNjdj/view?usp=sharing}{\faIcon{external-link-alt}}}
+\descript{| Intern | JdeRobot \href{https://drive.google.com/file/d/0B1bReMNL_q-eVFJSU01kWDNxY0pEaEtabUNCbTVQNTkyNjdj/view?usp=sharing}{\faIcon{external-link-alt}}}
 \location{May 2018 – Aug 2018}
 \begin{tightemize}
 \item Developed a Tool to View, Convert and Evaluate Datasets for a particular inferencer using a particular framework such as TensorFlow, Darknet and Keras. 
@@ -284,10 +293,12 @@ Assistant Professor, LNMIIT \\
 Improved DetectionSuite by adding parsing support for widely recognized datasets such as COCO, Pascal VOC and Imagenet along with frameworks namely TensorFlow, Darknet and Keras, enabling users to deploy and evaluate a model on supported datasets using supported frameworks.
 \sectionsep
 
+\iffalse
 \runsubsection{Pizza Delivery WebApp}
 | \faGithub  \href{https://github.com/vinay0410/Pizza}{vinay0410/Pizza} \\
     \location{Mentor: \textbf{\href{https://universe.bits-pilani.ac.in/hyderabad/narasimhabolloju/Profile}{Dr. Narsi Bolloju}}}
 A webapp which handles multiple types of users namely Admin, Supervisor, Chef and Delivery Staff and co-ordinates between them, to result in efficient delivery. Users can get real time updates of their order, including live tracking of delivery on road.
+\fi
 
 \iffalse
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
