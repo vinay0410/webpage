@@ -101,7 +101,7 @@ Major GPA: 3.9 / 4.0}
 \iffalse
 \subsection{Delhi Public School}
 \location{Indirapuram, Delhi NCR}
-Science | Percentage: 92.75
+Science | Percentage (EPCM): 92.75
 \sectionsep
 \fi
 
@@ -145,7 +145,7 @@ Unix Tools and Scripting \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     OPEN SOURCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Open Source}
+\section{Open Source Contributions}
 \textbf{\href{https://github.com/python/cpython/commits?author=vinay0410}{Python (shared\_memory, tests)} \\
 \href{https://github.com/JdeRobot/DetectionStudio/commits?author=vinay0410}{JdeRobot (GSoC)} \\
 \href{https://github.com/opencv/opencv/pull/10352/files}{OpenCV (imgcodecs, tests)}} \\
@@ -166,20 +166,21 @@ Unix Tools and Scripting \\
 
 \location{\bf DATABASES / SEARCH INDEXES:} 
 \textbullet{} \skillfont{Elasticsearch} \textbullet{} \skillfont{PostgreSQL} \\
-\textbullet{} \skillfont{Redis} \textbullet{} \skillfont{MongoDB (basic)} \\
+\textbullet{} \skillfont{Redis} \\
 \sectionsep
 
 \location{\bf FRAMEWORKS / TOOLS:}
 \textbullet{} \skillfont{mypy} \textbullet{} \skillfont{aiohttp} \textbullet{} \skillfont{asyncio} \\
 \textbullet{} \skillfont{unittest} \textbullet{} \skillfont{Docker} \\
 \textbullet{} \skillfont{OpenAPI} \textbullet{} \skillfont{Postman} \\
-\textbullet{} \skillfont{New Relic} \textbullet{} \skillfont{nginx (basic)}
 \sectionsep
 
+\iffalse
 \location{\bf OTHERS:}
 \textbullet{} \skillfont{GitHub} \textbullet{} \skillfont{GitLab} \\
 \textbullet{} \skillfont{SonarQube} \textbullet{} \skillfont{Jenkins} \textbullet{} \skillfont{Jira} \\
 \sectionsep
+\fi
 
 \iffalse
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -223,23 +224,25 @@ Assistant Professor, LNMIIT \\
 
 \section{Experience}
 \runsubsection{Amazon}
-\descript{| Software Development Engineer }
+\descript{| SDE | Sponsored Products/Ads Team }
 \location{Nov 2020 - Present | Banglore, India}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Part of Advertising team working on Sponsored Products for Amazon India marketplace.
+\item Built a Caching mechanism from scratch for Relevance Scoring cutting computation cost by \focus{10x}.
+\item Worked on Design \& Implementation of a low latency (\focus{25 ms}) Ad serving pipeline to launch a new ad inventory for sellers, as a part of Advertising team working on Sponsored Products for Amazon India Marketplace. 
+% \item Part of Advertising team working on Sponsored Products for Amazon India marketplace.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Innovaccer}
-\descript{| Software Development Engineer }
+\descript{| SDE | Patient Search Team }
 \location{July 2019 - Nov 2020 | Noida, India}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
+\item Became \focus{single point of contact} of a service collecting feedback centrally from all tenants, because of pro-active ownership and maintainence efforts.
 \item Migrated custom full text search API with custom filtering from \focus{ElasticSearch} to \focus{PostgreSQL} and increased performance of the same by \focus{50\%}, using BTrees and functional indexes.
 \item Improved speed of time critical APIs by caching using \focus{Redis}, which improved average response time by \focus{40x} as measured by New Relic.
 \item Built custom full text search using \focus{ElasticSearch} on millions of documents, with a custom scoring algorithm which increased relevance as measured by Mix Panel.
-\item Became \focus{point of contact} of a service collecting feedback centrally from all tenants.
 \end{tightemize}
 \sectionsep
 
@@ -248,7 +251,6 @@ Assistant Professor, LNMIIT \\
 \location{Jan 2019 – July 2019 | Noida, India}
 \begin{tightemize}
 \item Built and deployed an end to end backend service from scratch using \focus{aiohttp} and \focus{asyncio} in \focus{Python}, \focus{MongoDB}, \focus{shared memory} for IPC, \focus{OpenAPI} for Request Validation, \focus{Postman} for Integration Testing and \focus{mypy} for type checking.
-\item Designed a GraphQL like JSON spec for querying PostgreSQL, supporting  joins, filters and aggregations. Wrote a Query builder and an analyzer to get frequency of joins, filters and aggregations on columns.
 \end{tightemize}
 \sectionsep
 
